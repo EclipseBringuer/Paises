@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Paises</string>
+    <string name="item_1">Unión Europea</string>
+    <string name="item_2">Resto de países</string>
+    <string name="item_3">Todos los países</string>
+    <string name="btn">Volver</string>
+
+</resources>
