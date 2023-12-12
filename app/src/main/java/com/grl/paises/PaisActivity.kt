@@ -23,7 +23,7 @@ class PaisActivity : AppCompatActivity() {
         binding.titulo.text = nombre
         binding.mapita.setImageResource(mapa)
         binding.banderita.setImageResource(bandera)
-        if (isEU) {
+        if (!isEU) {
             binding.textoEuropa.text = "Pais miembro de la Unión Europea"
         } else {
             binding.textoEuropa.text = "Pais NO miembro de la Unión Europea"
